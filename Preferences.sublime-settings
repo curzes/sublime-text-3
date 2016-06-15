@@ -1,5 +1,8 @@
 {
     "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-    "font_face": "Source Code Pro",
-    "font_size": 9,
+    "font_face": "Source Code Pro", //Font family
+    "font_size": 9, //Font size
+	"highlight_line": true, //Hightlight current line
+	"caret_style": "solid", //No blinking curser
+	"fade_fold_buttons": false, //Display folder buttons
 }
