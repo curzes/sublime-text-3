@@ -1,8 +1,11 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme", //Theme
+    "dictionary": "Packages/User/Swedish.dic", // Spelcheck
+    "spell_check": true, // Enable spellcheck
     "font_face": "Source Code Pro", //Font family
     "font_size": 9, //Font size
 	"highlight_line": true, //Hightlight current line
 	"caret_style": "solid", //No blinking curser
 	"fade_fold_buttons": false, //Display folder buttons
+	"word_wrap": true, // Enable wordwrap
 }
