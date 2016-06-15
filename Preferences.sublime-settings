@@ -8,4 +8,10 @@
 	"caret_style": "solid", //No blinking curser
 	"fade_fold_buttons": false, //Display folder buttons
 	"word_wrap": true, // Enable wordwrap
+	"bold_folder_labels": true, // Fet stil på mappar
+	"tree_animation_enabled": false, // Tort med alla onödig animation
+    "translate_tabs_to_spaces": true, // Ändrar tab till space
+    "margin": 0, // Ingen onödig margin
+    "gutter": true, // Visa maginalen med nmmer å skit
+    "line_numbers": true, // Visa line numbers
 }
