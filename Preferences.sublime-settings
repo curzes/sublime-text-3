@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme", //Theme
     "dictionary": "Packages/User/Swedish.dic", // Spelcheck
-    "spell_check": true, // Enable spellcheck
+    "spell_check": false, // Enable spellcheck
     "font_face": "Source Code Pro", //Font family
     "font_size": 9, //Font size
 	"highlight_line": true, //Hightlight current line
