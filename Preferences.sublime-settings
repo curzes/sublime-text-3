@@ -1,17 +1,34 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme", //Theme
-    "dictionary": "Packages/User/Swedish.dic", // Spelcheck
-    "spell_check": false, // Enable spellcheck
-    "font_face": "Source Code Pro", //Font family
-    "font_size": 9, //Font size
-	"highlight_line": true, //Hightlight current line
-	"caret_style": "solid", //No blinking curser
-	"fade_fold_buttons": false, //Display folder buttons
-	"word_wrap": true, // Enable wordwrap
-	"bold_folder_labels": true, // Fet stil på mappar
-	"tree_animation_enabled": false, // Tort med alla onödig animation
-    "translate_tabs_to_spaces": true, // Ändrar tab till space
-    "margin": 0, // Ingen onödig margin
-    "gutter": true, // Visa maginalen med nmmer å skit
-    "line_numbers": true, // Visa line numbers
+    // Theme
+    "color_scheme": "Packages/Theme - Asphalt/Asphalt.tmTheme",
+    "theme": "Asphalt.sublime-theme",
+
+
+    // Default
+	"animation_enabled": false,
+	"atomic_save": false,
+	"auto_complete": true,
+	"auto_complete_delay": 0,
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"default_encoding": "UTF-8",
+	"dictionary": "Packages/User/Swedish.dic",
+	"enable_tab_scrolling": true,
+	"fade_fold_buttons": false,
+	"fold_buttons": true,
+	"font_face": "Source Code Pro",
+	"font_size": 9,
+	"gutter": true,
+	"highlight_line": true,
+	"line_numbers": true,
+	"margin": 0,
+	"scroll_past_end": false,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"spell_check": false,
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": true
 }
