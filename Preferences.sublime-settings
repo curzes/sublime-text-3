@@ -2,6 +2,14 @@
     // Theme
     "color_scheme": "Packages/Theme - Asphalt/Asphalt.tmTheme",
     "theme": "Asphalt.sublime-theme",
+    "theme_asphalt_hide_sidebar_icons": true,
+    "theme_asphalt_mouse_tabs_switch": true,
+    "theme_asphalt_show_dirty_tabs": true,
+    "theme_asphalt_show_input_dropdowon": false,
+    "theme_asphalt_show_panel_close": false,
+    "theme_asphalt_sidebar_small": true,
+    "theme_asphalt_status_bar_brighter": true,
+    "theme_asphalt_tabs_small": true, 
 
 
     // Default
