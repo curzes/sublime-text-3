@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
     <key>author</key>
-    <string>O'rlmente?</string>
+    <string>Curzes</string>
     <key>comment</key>
     <string>Asphalt Theme - v1.0</string>
     <key>name</key>
-    <string>Asphalt</string>
+    <string>Shitstorm</string>
     <key>settings</key>
     <array>
         <dict>
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#2D2D32</string>
+                <string>#1c1c1c</string> <!-- 2D2D32 -->
                 <key>caret</key>
                 <string>#D2D2D7</string>
                 <key>foreground</key>
                 <string>#D2D2D7</string>
                 <!-- <key>guide</key> -->
-                <!-- <string>#000000</string> -->
-                <!-- <key>activeGuide</key> -->
-                <!-- <string>#000000</string> -->
+                <!-- <string>#1c1c1c</string>  --><!-- 000000 -->
+                <!-- <key>activeGuide</key>
+                <string>#000000</string> -->
                 <key>invisibles</key>
                 <string>#737378</string>
                 <key>lineHighlight</key>
-                <string>#28282D</string>
+                <string>#111111</string> <!-- 28282D -->
                 <key>selection</key>
                 <string>#505055</string>
                 <key>findHighlight</key>
@@ -35,10 +35,10 @@
                 <string>#D7D7DC</string>
                 <!-- <key>bracketHighlight</key> -->
                 <!-- <string>#000000</string> -->
-                <!-- <key>gutter</key> -->
-                <!-- <string>#000000</string> -->
-                <!-- <key>gutterForeground</key> -->
-                <!-- <string>#000000</string> -->
+                <key>gutter</key>
+                <string>#1a1a1a</string>
+                <key>gutterForeground</key>
+                <string>#999999</string>
             </dict>
         </dict>
         <dict>
