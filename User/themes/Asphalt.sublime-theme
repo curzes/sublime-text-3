@@ -103,10 +103,14 @@
 			//  - Modified tab state
 			"class": "tab_control",
 			"attributes": ["dirty"],
-			"layer0.texture": "User/themes/Asphalt/tab-inactive.png",
-			"layer1.texture": "User/themes/Asphalt/tab-active.png",
-			"layer2.texture": "User/themes/Asphalt/tab-hover.png",
-			"layer3.texture": "User/themes/Asphalt/tab-hover-dirty.png"
+			// "layer0.texture": "User/themes/Asphalt/tab-inactive.png",
+			"layer0.tint": [28, 28, 28, 255],
+			// "layer1.texture": "User/themes/Asphalt/tab-active.png",
+			"layer1.tint": [28, 28, 28, 255],
+			// "layer2.texture": "User/themes/Asphalt/tab-hover.png",
+			"layer2.tint": [28, 28, 28, 255],
+			//"layer3.texture": "User/themes/Asphalt/tab-hover-dirty.png"
+			"layer3.tint": [28, 28, 28, 255]
 		},
 		{
 			//  - Modified tab state
@@ -123,10 +127,14 @@
 			"class": "tab_control",
 			"settings": ["theme_asphalt_tabs_small"],
 			"attributes": ["dirty"],
-			"layer0.texture": "User/themes/Asphalt/tabs-small/tab-small-inactive.png",
-			"layer1.texture": "User/themes/Asphalt/tabs-small/tab-small-active.png",
-			"layer2.texture": "User/themes/Asphalt/tabs-small/tab-small-hover.png",
-			"layer3.texture": "User/themes/Asphalt/tabs-small/tab-small-hover-dirty.png"
+			// "layer0.texture": "User/themes/Asphalt/tabs-small/tab-small-inactive.png",
+			"layer0.tint": [13, 13, 13, 255],
+			//"layer1.texture": "User/themes/Asphalt/tabs-small/tab-small-active.png",
+			"layer1.tint": [28, 28, 28, 255],
+			//"layer2.texture": "User/themes/Asphalt/tabs-small/tab-small-hover.png",
+			"layer2.tint": [28, 28, 28, 255],
+			//"layer3.texture": "User/themes/Asphalt/tabs-small/tab-small-hover-dirty.png"
+			"layer3.tint": [28, 28, 28, 255]
 		},
 		{
 			//  - Modified tab state
@@ -712,7 +720,8 @@
 			// Status bar container
 			"class": "status_bar",
 			"layer0.texture": "",
-			"layer0.tint": [30, 30, 35, 255],
+			//"layer0.tint": [30, 30, 35, 255],
+			"layer0.tint": [0, 0, 0, 255],
 			"layer0.opacity": 1,
 			"content_margin": 5
 		},
@@ -1263,7 +1272,8 @@
 	{
 		"class": "icon_button_control",
 		"layer0.texture": "",
-		"layer0.tint": [30, 30, 35, 255],
+		//"layer0.tint": [30, 30, 35, 255],
+		"layer0.tint": [13, 13, 13, 255],
 		"layer0.opacity": 1.0,
 		"layer1.opacity": 0.0,
 		"content_margin": [6, 6]
