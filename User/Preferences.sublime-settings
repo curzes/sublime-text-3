@@ -6,7 +6,7 @@
 	"auto_indent": true,
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Theme - Asphalt/Asphalt.tmTheme",
+	"color_scheme": "Packages/User/themes/Asphalt.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/User/languages/Swedish.dic",
 	"enable_tab_scrolling": true,
