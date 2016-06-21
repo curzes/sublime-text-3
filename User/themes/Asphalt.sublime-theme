@@ -15,7 +15,8 @@
 	//  ------------------------------------------------------
 		{
 			"class": "tabset_control",
-			"layer0.texture": "User/themes/Asphalt/tab-background.png",
+			//"layer0.texture": "User/themes/Asphalt/tab-background.png",
+			"layer0.tint": [13, 13, 13, 255],
 			"layer0.inner_margin": [10,0],
 			"layer0.opacity": 1,
 			"content_margin": [0, 0, 0, 0],
@@ -28,13 +29,15 @@
 		{
 			"class": "tabset_control",
 			"settings": ["theme_asphalt_tabs_small"],
-			"layer0.texture": "User/themes/Asphalt/tabs-small/tab-small-background.png",
+			//"layer0.texture": "User/themes/Asphalt/tabs-small/tab-small-background.png",
+			"layer0.tint": [13, 13, 13, 255],
 			"tab_height": 30
 		},
 		{
 			"class": "tabset_control",
 			"settings": ["theme_asphalt_tabs_big"],
-			"layer0.texture": "User/themes/Asphalt/tabs-big/tab-big-background.png",
+			//"layer0.texture": "User/themes/Asphalt/tabs-big/tab-big-background.png",
+			"layer0.tint": [13, 13, 13, 255],
 			"tab_height": 65
 		},
 		{
@@ -57,11 +60,15 @@
 			"content_margin": [20, 0, 20, 0],
 			"max_margin_trim": 0,
 			"hit_test_level": 0,
-			"layer0.texture": "User/themes/Asphalt/tab-inactive.png",
-			"layer1.texture": "User/themes/Asphalt/tab-active.png",
-			"layer2.texture": "User/themes/Asphalt/tab-hover.png",
+			//"layer0.texture": "User/themes/Asphalt/tab-inactive.png",
+			"layer0.tint": [13, 13, 13, 255],
+			//"layer1.texture": "User/themes/Asphalt/tab-active.png",
+			"layer1.tint": [28, 28, 28, 255],
+			//"layer2.texture": "User/themes/Asphalt/tab-hover.png",
+			"layer2.tint": [28, 28, 28, 255],
 			// layer3 used for dirty file tab indicator (settings -> theme_asphalt_show_dirty_tabs: true)
 			"layer3.texture": "User/themes/Asphalt/tab-hover-dirty.png",
+			//"layer3.tint": [28, 28, 28, 255],
 			"layer0.inner_margin": [0,0],
 			"layer1.inner_margin": [0,0],
 			"layer2.inner_margin": [0,0],
