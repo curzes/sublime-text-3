@@ -448,7 +448,7 @@
 			"class": "scroll_bar_control",
 			"layer0.texture": "",
 			//"layer0.tint": [30, 30, 35, 255],
-			"layer0.tint": [28, 28, 28, 255],
+			"layer0.tint": [20, 20, 20, 255],
 			"layer0.opacity": 1,
 			"layer0.inner_margin": [0,0],
 			"blur": true
@@ -473,7 +473,7 @@
 			"attributes": ["horizontal"],
 			"layer0.texture": "",
 			//"layer0.tint": [30, 30, 35, 255],
-			"layer0.tint": [28, 28, 28, 255],
+			"layer0.tint": [20, 20, 20, 255],
 			"layer0.inner_margin": [0,0],
 			"blur": true
 		},
@@ -493,7 +493,8 @@
 		{
 			"class": "scroll_corner_control",
 			"layer0.texture": "",
-			"layer0.tint": [30, 30, 35, 255],
+			//"layer0.tint": [30, 30, 35, 255],
+			"layer0.tint": [20, 20, 20, 255],
 			"layer0.inner_margin": [0,0],
 			"layer0.opacity": 1
 		},
@@ -802,7 +803,7 @@
 	{
 		"class": "tree_row",
 		"attributes": ["selected"],
-		"layer0.opacity": 1
+		"layer0.opacity": 0
 	},
 	// Sidebar heading
 	{
@@ -1060,7 +1061,8 @@
 		"content_margin": [5,5,5,5],
 		"min_size": [64,0],
 		"layer0.texture": "",
-		"layer0.tint": [30, 30, 35, 255],
+		//"layer0.tint": [30, 30, 35, 255],
+		"layer0.tint": [20, 20, 20, 255],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [10,10],
 		"layer1.opacity": 0
@@ -1070,7 +1072,8 @@
 		"class": "button_control",
 		"attributes": ["hover"],
 		"layer0.texture": "",
-		"layer0.tint": [50, 50, 55, 255]
+		//"layer0.tint": [50, 50, 55, 255]
+		"layer0.tint": [25, 25, 25, 255]
 	},
 	// Pressed button state
 	{
@@ -1088,8 +1091,9 @@
 	// Text input field item
 	{
 		"class": "text_line_control",
-		"layer0.texture": "",
-		"layer0.tint": [30, 30, 35],
+		//"layer0.texture": "",
+		//"layer0.tint": [30, 30, 35],
+		"layer0.tint": [25, 25, 225],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [0,0],
 		"content_margin": [5, 3]
@@ -1131,7 +1135,7 @@
 		"layer0.texture": "",
 		"layer0.inner_margin": [0,0],
 		"layer0.opacity": 1,
-		"layer0.tint": [30, 30, 35], // -00
+		"layer0.tint": [13, 13, 13],
 		"content_margin": [0,0,0,10]
 	},
     {
@@ -1158,7 +1162,7 @@
 		"class": "overlay_control",
 		"layer0.opacity": 1,
 		"layer1.texture": "",
-		"layer1.tint": [30, 30, 35], // 01
+		"layer1.tint": [13, 13, 13], // 01
 		"layer1.inner_margin": [0,0,0,0],
 		"layer1.opacity": 1,
 		"content_margin": [0,0]
@@ -1178,7 +1182,8 @@
 	},
 	{
 		"class": "quick_panel_row",
-		"layer0.tint": [40, 40, 45],
+		//"layer0.tint": [40, 40, 45],
+		"layer0.tint": [20, 20, 20],
 		"layer0.inner_margin": 5,
 		"layer0.opacity": 1
 	},
