@@ -31,7 +31,7 @@
 			"settings": ["theme_asphalt_tabs_small"],
 			//"layer0.texture": "User/themes/Asphalt/tabs-small/tab-small-background.png",
 			"layer0.tint": [13, 13, 13, 255],
-			"tab_height": 30
+			"tab_height": 28
 		},
 		{
 			"class": "tabset_control",
@@ -230,7 +230,7 @@
 			// "content_margin": [10, 0],
 			"content_margin": [8, 8],
 			// Tab close default settings
-			"layer0.texture": "User/themes/Asphalt/icons/close.png",
+			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0,
 			"layer0.inner_margin": [0, 0],
@@ -280,7 +280,7 @@
 			// - Tab dirty button
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-			"layer0.texture": "User/themes/Asphalt/icons/file-dirty.png",
+			"layer0.texture": "User/themes/icons/file-dirty.png",
 			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 0.5
 		},
@@ -288,7 +288,7 @@
 			// - Tab dirty button selected hover
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
-			"layer0.texture": "User/themes/Asphalt/icons/file-dirty.png",
+			"layer0.texture": "User/themes/icons/file-dirty.png",
 			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1.0
 		},
@@ -296,7 +296,7 @@
 			// - Tab dirty button hover
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
-			"layer0.texture": "User/themes/Asphalt/icons/file-dirty.png",
+			"layer0.texture": "User/themes/icons/file-dirty.png",
 			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1.0
 		},
@@ -307,7 +307,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "User/themes/Asphalt/icons/close.png",
+			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0
 		},
@@ -316,7 +316,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "User/themes/Asphalt/icons/close.png",
+			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -325,7 +325,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 			"settings": ["theme_asphalt_show_dirty_tabs"],
-			"layer0.texture": "User/themes/Asphalt/icons/close.png",
+			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -336,7 +336,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"attributes": ["hover"],
-			"layer0.texture": "User/themes/Asphalt/icons/close.png",
+			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 65, 65, 255],
 			"layer0.opacity": 1.0
 		},
@@ -369,7 +369,7 @@
 			"class": "scroll_tabs_left_button",
 			// "content_margin": [9, 7, 8, 6],
 			"content_margin": [0, 0, 0, 0],
-			"layer0.texture": "User/themes/Asphalt/icons/arrow_left.png",
+			"layer0.texture": "User/themes/icons/arrow_left.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0
@@ -384,7 +384,7 @@
 			"class": "scroll_tabs_right_button",
 			// "content_margin": [9, 7, 8, 6],
 			"content_margin": [0, 0, 0, 0],
-			"layer0.texture": "User/themes/Asphalt/icons/arrow_right.png",
+			"layer0.texture": "User/themes/icons/arrow_right.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0
@@ -401,7 +401,7 @@
 		{
 			"class": "show_tabs_dropdown_button",
 			"content_margin": [9, 7, 8, 6],
-			"layer0.texture": "User/themes/Asphalt/icons/arrow_down.png",
+			"layer0.texture": "User/themes/icons/arrow_down.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5
 		},
@@ -416,7 +416,7 @@
 	//  ------------------------------------------------------
 		{
 			"class": "fold_button_control",
-			"layer0.texture": "User/themes/Asphalt/icons/fold-marker-closed.png",
+			"layer0.texture": "User/themes/icons/fold-marker-closed.png",
 			"layer0.tint": [215, 215, 220, 255],
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0,
@@ -431,7 +431,7 @@
 		{
 			"class": "fold_button_control",
 			"attributes": ["expanded"],
-			"layer0.texture": "User/themes/Asphalt/icons/fold-marker-open.png"
+			"layer0.texture": "User/themes/icons/fold-marker-open.png"
 		},
 		{
 			"class": "fold_button_control",
@@ -859,7 +859,7 @@
 	// Sidebar file close
 	{
 		"class": "close_button",
-		"layer0.texture": "User/themes/Asphalt/icons/close-sidebar.png",
+		"layer0.texture": "User/themes/icons/close-sidebar.png",
 		"layer0.inner_margin": 0,
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0,
@@ -879,7 +879,7 @@
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
-		"layer0.texture": "User/themes/Asphalt/icons/modified.png",
+		"layer0.texture": "User/themes/icons/modified.png",
 		"layer0.opacity": 0.5,
 		"layer0.tint": [215, 215, 220, 255]
 	},
@@ -887,13 +887,13 @@
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"parents": [{"class": "tree_row","attributes": ["selected"]}],
-		"layer0.texture": "User/themes/Asphalt/icons/modified.png"
+		"layer0.texture": "User/themes/icons/modified.png"
 	},
 	{
 		"class": "close_button",
 		"attributes": ["dirty"],
 		"parents": [{"class": "tree_row","attributes": ["hover"]}],
-		"layer0.texture": "User/themes/Asphalt/icons/modified.png",
+		"layer0.texture": "User/themes/icons/modified.png",
 		"layer0.opacity": 1
 	},
 	// Sidebar file close hover
@@ -906,7 +906,7 @@
 		"class": "close_button",
 		"attributes": ["dirty", "hover"],
 		"parents": [{"class": "tree_row","attributes": ["hover"]}],
-		"layer0.texture": "User/themes/Asphalt/icons/close-sidebar.png",
+		"layer0.texture": "User/themes/icons/close-sidebar.png",
 		"layer0.tint": [215, 65, 65, 255],
 		"layer0.opacity": 1
 	},
@@ -920,7 +920,7 @@
 	{
 		"class": "disclosure_button_control",
 		"content_margin": [8,8],
-		"layer0.texture": "User/themes/Asphalt/icons/folder-closed.png",
+		"layer0.texture": "User/themes/icons/folder-closed.png",
 		"layer0.tint": [215, 65, 65],
 		"layer0.opacity": 1,
 		"layer0.inner_margin": [8,8]
@@ -940,7 +940,7 @@
 	{
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
-		"layer0.texture": "User/themes/Asphalt/icons/folder-open.png"
+		"layer0.texture": "User/themes/icons/folder-open.png"
 	},
 	{
 		"class": "disclosure_button_control",
@@ -951,7 +951,7 @@
 		"class": "disclosure_button_control",
 		"attributes": ["expanded"],
 		"parents": [{"class": "tree_row","attributes": ["selected"]}],
-		"layer0.texture": "User/themes/Asphalt/icons/folder-open.png"
+		"layer0.texture": "User/themes/icons/folder-open.png"
 	},
 	// Icons (build 3062+)
 	{
@@ -1110,7 +1110,7 @@
 	{
 		"class": "dropdown_button_control",
 		"content_margin": [0, 0],
-		"layer0.texture": "User/themes/Asphalt/icons/arrow_down.png",
+		"layer0.texture": "User/themes/icons/arrow_down.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0,
 		"layer0.inner_margin": [4, 4]
@@ -1144,7 +1144,7 @@
 	},
     {
         "class": "panel_close_button",
-        "layer0.texture": "User/themes/Asphalt/icons/close-sidebar.png",
+        "layer0.texture": "User/themes/icons/close-sidebar.png",
         "layer0.opacity": 0.5,
         "content_margin": [0, 0]
     },
@@ -1348,7 +1348,7 @@
 	// Regex search button
 	{
 		"class": "icon_regex",
-		"layer0.texture": "User/themes/Asphalt/icons/regex.png",
+		"layer0.texture": "User/themes/icons/regex.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1374,7 +1374,7 @@
 	// Case sensitive search button
 	{
 		"class": "icon_case",
-		"layer0.texture": "User/themes/Asphalt/icons/casesens.png",
+		"layer0.texture": "User/themes/icons/casesens.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1400,7 +1400,7 @@
 	// Match whole word search button
 	{
 		"class": "icon_whole_word",
-		"layer0.texture": "User/themes/Asphalt/icons/wholeword.png",
+		"layer0.texture": "User/themes/icons/wholeword.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1433,7 +1433,7 @@
 	// Show search context button
 	{
 		"class": "icon_context",
-		"layer0.texture": "User/themes/Asphalt/icons/context.png",
+		"layer0.texture": "User/themes/icons/context.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1459,7 +1459,7 @@
 	// Use search buffer
 	{
 		"class": "icon_use_buffer",
-		"layer0.texture": "User/themes/Asphalt/icons/buffer.png",
+		"layer0.texture": "User/themes/icons/buffer.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1490,7 +1490,7 @@
 	// Reverse search direction button (ST2 only)
 	{
 		"class": "icon_reverse",
-		"layer0.texture": "User/themes/Asphalt/icons/reverse.png",
+		"layer0.texture": "User/themes/icons/reverse.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1516,7 +1516,7 @@
 	// Search wrap button
 	{
 		"class": "icon_wrap",
-		"layer0.texture": "User/themes/Asphalt/icons/wrap-open.png",
+		"layer0.texture": "User/themes/icons/wrap-open.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1542,7 +1542,7 @@
 	// Search in selection button
 	{
 		"class": "icon_in_selection",
-		"layer0.texture": "User/themes/Asphalt/icons/selection.png",
+		"layer0.texture": "User/themes/icons/selection.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
@@ -1574,7 +1574,7 @@
 	// Preserve case button
 	{
 		"class": "icon_preserve_case",
-		"layer0.texture": "User/themes/Asphalt/icons/lock-open.png",
+		"layer0.texture": "User/themes/icons/lock-open.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": 8
@@ -1588,7 +1588,7 @@
 	{
 		"class": "icon_preserve_case",
 		"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-		"layer0.texture": "User/themes/Asphalt/icons/lock-closed.png",
+		"layer0.texture": "User/themes/icons/lock-closed.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 1
 	},
@@ -1607,7 +1607,7 @@
 	// Highlight results button
 	{
 		"class": "icon_highlight",
-		"layer0.texture": "User/themes/Asphalt/icons/highlight.png",
+		"layer0.texture": "User/themes/icons/highlight.png",
 		"layer0.tint": [215, 215, 220, 255],
 		"layer0.opacity": 0.5,
 		"content_margin": [8,8]
