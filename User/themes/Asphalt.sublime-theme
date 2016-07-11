@@ -190,7 +190,7 @@
 			//  - actually this does nothing ;)
 		},
 		{ 
-			//  - Active tab label
+			//  - Active tab label 
 			"class": "tab_label",
 			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
 			"fg": [215, 215, 220, 255]
@@ -281,7 +281,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"layer0.texture": "User/themes/icons/file-dirty.png",
-			"layer0.tint": [215, 65, 65, 255],
+			"layer0.tint": [215, 25, 65, 255],
 			"layer0.opacity": 0.5
 		},
 		{
@@ -825,13 +825,13 @@
 	{
 		"class": "sidebar_label",
 		"font.size": 11,
-		"color": [100, 100, 100, 255]
+		"color": [150, 150, 150, 255]
 	},
 	// Sidebar folder entry
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row","attributes": ["expandable"]}],
-		"color": [145, 145, 145, 255]
+		"color": [165, 165, 165, 255]
 	},
 	{
 		"class": "sidebar_label",
