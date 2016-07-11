@@ -253,14 +253,14 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["hover"]}],
 			"layer0.tint": [215, 215, 220, 255],
-			"layer0.opacity": 0.5
+			"layer0.opacity": 1
 		},
 		{
 			// - Active Tab - close button
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
 			"layer0.tint": [215, 215, 220, 255],
-			"layer0.opacity": 0.5
+			"layer0.opacity": 1
 		},
 		{
 			"class": "tab_close_button",
@@ -282,7 +282,7 @@
 			"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
 			"layer0.texture": "User/themes/icons/file-dirty.png",
 			"layer0.tint": [215, 25, 65, 255],
-			"layer0.opacity": 0.5
+			"layer0.opacity": 1
 		},
 		{
 			// - Tab dirty button selected hover
@@ -298,7 +298,7 @@
 			"parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
 			"layer0.texture": "User/themes/icons/file-dirty.png",
 			"layer0.tint": [215, 65, 65, 255],
-			"layer0.opacity": 1.0
+			"layer0.opacity": 1
 		},
 		// with dirty tabs
 		/*  */
@@ -318,7 +318,7 @@
 			"settings": ["theme_asphalt_show_dirty_tabs"],
 			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
-			"layer0.opacity": 0.5
+			"layer0.opacity": 1
 		},
 		{
 			// - Tab dirty button hover
@@ -327,7 +327,7 @@
 			"settings": ["theme_asphalt_show_dirty_tabs"],
 			"layer0.texture": "User/themes/icons/close.png",
 			"layer0.tint": [215, 215, 220, 255],
-			"layer0.opacity": 0.5
+			"layer0.opacity": 1
 		},
 		/*  */
 		// ..............
