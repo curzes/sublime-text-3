@@ -26,9 +26,9 @@
                 <key>invisibles</key>
                 <string>#737378</string>
                 <key>lineHighlight</key>
-                <string>#141414</string>
+                <string>#030303</string>
                 <key>selection</key>
-                <string>#0d0d0d</string> <!-- 505055 -->
+                <string>#030303</string> <!-- 505055 -->
                 <key>findHighlight</key>
                 <string>#87878C</string>
                 <key>findHighlightForeground</key>
